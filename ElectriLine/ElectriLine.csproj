@@ -132,6 +132,7 @@
     <Compile Include="Controllers\articuloesController.cs" />
     <Compile Include="Controllers\categoriasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\personasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -245,6 +246,11 @@
     <Content Include="Views\categorias\Details.cshtml" />
     <Content Include="Views\categorias\Edit.cshtml" />
     <Content Include="Views\categorias\Index.cshtml" />
+    <Content Include="Views\personas\Create.cshtml" />
+    <Content Include="Views\personas\Delete.cshtml" />
+    <Content Include="Views\personas\Details.cshtml" />
+    <Content Include="Views\personas\Edit.cshtml" />
+    <Content Include="Views\personas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
