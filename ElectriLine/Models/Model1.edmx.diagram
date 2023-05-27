@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ad6c225c4e96468b9040e261abef519f" Name="Diagram1">
+        <EntityTypeShape EntityType="ElectricLineModel.articulo" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricLineModel.categoria" Width="1.5" PointX="3.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricLineModel.detalle_ingreso" Width="1.5" PointX="8.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricLineModel.detalle_venta" Width="1.5" PointX="11.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricLineModel.ingreso" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricLineModel.persona" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricLineModel.rol" Width="1.5" PointX="1.5" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricLineModel.usuario" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricLineModel.venta" Width="1.5" PointX="6" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="ElectricLineModel.FK__articulo__idcate__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricLineModel.FK__detalle_i__idart__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricLineModel.FK__detalle_v__idart__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricLineModel.FK__detalle_i__iding__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricLineModel.FK__detalle_v__idven__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricLineModel.FK__ingreso__idprove__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricLineModel.FK__ingreso__idusuar__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricLineModel.FK__venta__idcliente__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricLineModel.FK__usuario__idrol__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricLineModel.FK__venta__idusuario__3E52440B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
